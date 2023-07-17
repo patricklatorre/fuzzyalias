@@ -1,0 +1,9 @@
+{
+    "throttleLimit": 1000,
+    "timeoutSeconds": 5,
+    "links": {
+        "/clipnotes": "https://clipnotes.cc",
+        "/mail": "https://mail.google.com/mail/u",
+        "/gh": "https://github.com"
+    }
+}
