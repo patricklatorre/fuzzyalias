@@ -1,4 +1,4 @@
-Simple HTTP server redirects requests to the nearest matching alias. (see [config](https://github.com/patricklatorre/fuzzyalias/blob/main/config.json.example))
+Simple HTTP server that redirects requests to the nearest matching alias. (see [config](https://github.com/patricklatorre/fuzzyalias/blob/main/config.json.example))
 
 - `https://srv.io/clipnotes` → `https://clipnotes.cc`
 - `https://srv.io/clip` → `https://clipnotes.cc`
@@ -9,3 +9,4 @@ Also forwards any string beyond the alias.
 - `https://srv.io/gh/fuzzyalias` → `https://github.com/patricklatorre/fuzzyalias`
 - `https://srv.io/clip/https://youtu.be/dQw4w9WgXcQ` → `https://clipnotes.cc/https://youtu.be/dQw4w9WgXcQ`
 
+The config is loaded only once on server start.
