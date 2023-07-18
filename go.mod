@@ -1,4 +1,4 @@
-module github.com/patricklatorre/fuzzyredirect
+module github.com/patricklatorre/fuzzyalias
 
 go 1.20
 

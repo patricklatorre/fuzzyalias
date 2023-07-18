@@ -13,7 +13,7 @@ import (
 )
 
 type Config struct {
-	LinkMap        map[string]string `json:"links"`
+	Aliases        map[string]string `json:"aliases"`
 	TimeoutSeconds int               `json:"timeoutSeconds"`
 	ThrottleLimit  int               `json:"throttleLimit"`
 }

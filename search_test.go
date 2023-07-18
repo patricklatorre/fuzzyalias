@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func Benchmark_FindNearestLink(b *testing.B) {
-	config.LinkMap = map[string]string{
+	config.Aliases = map[string]string{
 		"/foo": "https://foo.com",
 		"/bar": "https://bar.com",
 		"/baz": "https://baz.com",
