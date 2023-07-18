@@ -1,5 +1,5 @@
 {
-    "throttleLimit": 1000,
+    "throttleLimit": 2000,
     "timeoutSeconds": 5,
     "links": {
         "/clipnotes": "https://clipnotes.cc",
