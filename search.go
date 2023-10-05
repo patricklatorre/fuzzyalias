@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-var QueryRegexp regexp.Regexp = *regexp.MustCompile(`(/[\w\d]+)(\W+.*)?`)
+var QueryRegexp regexp.Regexp = *regexp.MustCompile(`(/[\w\d-_]+)(\W+.*)?`)
 
 // The query is divided into 2 parts
 // 1) ALIASQUERY - used to search for the link.
